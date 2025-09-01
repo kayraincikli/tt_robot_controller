@@ -18,7 +18,7 @@ module tt_um_example (
 
 
     // List all unused inputs to prevent warnings
-    wire _unused = &{ena, ui_in[4], ui_in[5], ui_in[6] ,1'b0};
+    wire [3:0] _unused = {ena, ui_in[4], ui_in[5], ui_in[6]};
         
     wire reset;
     wire robot_enable;
