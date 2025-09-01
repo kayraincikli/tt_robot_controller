@@ -95,6 +95,7 @@ module tt_um_example (
     assign uio_out[0]   = SDA_reg_top;
     assign SDA_master_in= uio_in[0];
     assign uio_oe[0]    = SDA_oe_top;
-    assign SDA_master   = SDA_oe_top ? 1'bz : SDA_master_in;
+    //assign SDA_master   = SDA_oe_top ? 1'bz : SDA_master_in;
+    assign SDA_master = 1;
     
 endmodule
