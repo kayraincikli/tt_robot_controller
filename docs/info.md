@@ -8,13 +8,14 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
+This project is a experimental controller for robot, enables communication with sensors and path tracking algorithm.
 Explain how your project works
 
 ## How to test
-
+Connect external sensors as given in pinout and power on.
 Explain how to use your project
 
 ## External hardware
-
+Gyro Sensor
+Proximity Sensor
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
