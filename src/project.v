@@ -83,7 +83,7 @@ module tt_um_example (
     assign uio_out[5]   = direction_rightmotor_2;
     assign uio_out[6]   = direction_leftmotor_1;
     assign uio_out[7]   = direction_leftmotor_2;
-    
+     
     assign uio_oe[1]    = 1'b1;
     assign uio_oe[2]    = 1'b1;
     assign uio_oe[3]    = 1'b1;
