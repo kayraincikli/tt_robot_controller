@@ -19,7 +19,7 @@ project:
   source_files:
     - "project.v"
     - "autodrive.v"
-    - "config.v"
+    - "config_rx.v"
     - "data_tx.v"
     - "Divider32bit.v"
     - "get_8sensor_data.v"
